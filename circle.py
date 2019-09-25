@@ -17,12 +17,12 @@ class Circle:
 
 def main():
     circle1 = Circle(radius=1)
-    print('{:.2f}'.format(circle1.area()))  # 3.14
-    print('{:.2f}'.format(circle1.perimeter()))  # 6.28
+    print(f'{circle1.area():.2f}')
+    print(f'{circle1.perimeter():.2f}')
 
     circle3 = Circle(radius=3)
-    print('{:.2f}'.format(circle3.area()))
-    print('{:.2f}'.format(circle3.perimeter()))
+    print(f'{circle3.area():.2f}')
+    print(f'{circle3.perimeter():.2f}')
 
 
 if __name__ == '__main__':
